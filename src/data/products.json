@@ -1,0 +1,183 @@
+
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 79.99,
+    "rating": 4.5,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
+    "description": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and superior sound quality. Perfect for music lovers and professionals."
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "price": 199.99,
+    "rating": 4.8,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "description": "Track your fitness goals with this advanced smartwatch featuring heart rate monitoring, GPS tracking, and sleep analysis."
+  },
+  {
+    "id": 3,
+    "name": "Minimalist Leather Wallet",
+    "price": 45.00,
+    "rating": 4.3,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&q=80",
+    "description": "Handcrafted genuine leather wallet with RFID protection. Slim design fits comfortably in your pocket."
+  },
+  {
+    "id": 4,
+    "name": "Organic Cotton T-Shirt",
+    "price": 29.99,
+    "rating": 4.6,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+    "description": "Comfortable and sustainable organic cotton t-shirt. Available in multiple colors and sizes."
+  },
+  {
+    "id": 5,
+    "name": "Stainless Steel Water Bottle",
+    "price": 24.99,
+    "rating": 4.7,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&q=80",
+    "description": "Insulated stainless steel bottle keeps drinks cold for 24 hours or hot for 12 hours. Eco-friendly and durable."
+  },
+  {
+    "id": 6,
+    "name": "Yoga Mat Premium",
+    "price": 49.99,
+    "rating": 4.4,
+    "category": "Sports",
+    "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&q=80",
+    "description": "Extra thick yoga mat with non-slip surface. Perfect for yoga, pilates, and home workouts."
+  },
+  {
+    "id": 7,
+    "name": "Portable Phone Charger",
+    "price": 35.99,
+    "rating": 4.2,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&q=80",
+    "description": "High-capacity 20000mAh power bank with fast charging technology. Charge multiple devices simultaneously."
+  },
+  {
+    "id": 8,
+    "name": "Designer Sunglasses",
+    "price": 129.99,
+    "rating": 4.9,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
+    "description": "UV protection sunglasses with polarized lenses. Stylish design suitable for any occasion."
+  },
+  {
+    "id": 9,
+    "name": "Running Shoes Pro",
+    "price": 89.99,
+    "rating": 4.6,
+    "category": "Sports",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
+    "description": "Lightweight running shoes with breathable mesh and cushioned sole for maximum comfort during long runs."
+  },
+  {
+    "id": 10,
+    "name": "Ceramic Coffee Mug Set",
+    "price": 34.99,
+    "rating": 4.5,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&q=80",
+    "description": "Set of 4 handcrafted ceramic mugs. Microwave and dishwasher safe. Perfect for coffee or tea lovers."
+  },
+  {
+    "id": 11,
+    "name": "Laptop Backpack",
+    "price": 59.99,
+    "rating": 4.7,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80",
+    "description": "Water-resistant laptop backpack with multiple compartments. Fits up to 15.6-inch laptops."
+  },
+  {
+    "id": 12,
+    "name": "Wireless Gaming Mouse",
+    "price": 69.99,
+    "rating": 4.8,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&q=80",
+    "description": "High-precision wireless gaming mouse with customizable RGB lighting and programmable buttons."
+  },
+  {
+    "id": 13,
+    "name": "Denim Jacket Classic",
+    "price": 79.99,
+    "rating": 4.4,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500&q=80",
+    "description": "Timeless denim jacket with a comfortable fit. Perfect for layering in any season."
+  },
+  {
+    "id": 14,
+    "name": "Aromatherapy Diffuser",
+    "price": 39.99,
+    "rating": 4.6,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500&q=80",
+    "description": "Ultrasonic essential oil diffuser with LED lights. Creates a calming atmosphere in any room."
+  },
+  {
+    "id": 15,
+    "name": "Tennis Racket Pro",
+    "price": 149.99,
+    "rating": 4.7,
+    "category": "Sports",
+    "image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=500&q=80",
+    "description": "Professional-grade tennis racket with carbon fiber frame. Lightweight and powerful."
+  },
+  {
+    "id": 16,
+    "name": "Bluetooth Speaker Portable",
+    "price": 54.99,
+    "rating": 4.5,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&q=80",
+    "description": "Waterproof portable Bluetooth speaker with 360-degree sound. Perfect for outdoor adventures."
+  },
+  {
+    "id": 17,
+    "name": "Canvas Tote Bag",
+    "price": 19.99,
+    "rating": 4.3,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80",
+    "description": "Eco-friendly canvas tote bag with reinforced handles. Spacious and stylish for everyday use."
+  },
+  {
+    "id": 18,
+    "name": "Hoodie Premium Cotton",
+    "price": 64.99,
+    "rating": 4.8,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+    "description": "Soft and cozy premium cotton hoodie. Perfect for casual wear and lounging."
+  },
+  {
+    "id": 19,
+    "name": "Cutting Board Bamboo",
+    "price": 27.99,
+    "rating": 4.6,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1565689157206-0fddef7589a2?w=500&q=80",
+    "description": "Sustainable bamboo cutting board with juice groove. Gentle on knives and naturally antimicrobial."
+  },
+  {
+    "id": 20,
+    "name": "Resistance Bands Set",
+    "price": 29.99,
+    "rating": 4.5,
+    "category": "Sports",
+    "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=500&q=80",
+    "description": "Set of 5 resistance bands with varying strength levels. Perfect for home workouts and physical therapy."
+  }
+]
