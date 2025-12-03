@@ -87,7 +87,7 @@ catalog-alx/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/catalog-alx.git
+   git clone https://github.com/pluggito/catalog-alx.git
    cd catalog-alx
    ```
 
@@ -247,27 +247,6 @@ Contributions are welcome! Please follow these steps:
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👤 Author
-
-**ALX Student Project**
-- Portfolio: [Your portfolio URL]
-- GitHub: [@yourusername](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- React team for the awesome framework
-- Redux for state management
-- Tailwind CSS for beautiful styling
-- Lucide React for icons
-- Unsplash for product images
-- ALX Program for the opportunity
-
-## 📞 Support
-
-For support, email support@catalogalx.com or open an issue on GitHub.
-
----
 
 **Happy Shopping! 🛍️**
 
