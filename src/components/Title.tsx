@@ -1,0 +1,19 @@
+
+
+interface TitleProps {
+    text1: string;
+    text2: string;
+}
+
+export default function Title({text1,text2}: TitleProps){
+
+
+    return(
+        <div className="inline-flex gap-2 items-center mb-3">
+            <p className="text-gray-500">{text1}<span className="text-black font-medium">{text2}</span></p>
+            <p className="w-8 sm:w-12 h-px sm:h-0.5 bg-gray-500"></p>
+
+        </div>
+    )
+
+}
