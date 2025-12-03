@@ -76,7 +76,7 @@ const PlaceOrder = () => {
 
 			// Simulate success
 			alert("Order placed successfully!");
-			navigate("/order-summary", { state: orderData });
+			navigate("/", { state: orderData });
 
 			// Clear cart after successful order
 			dispatch({ type: "cart/clearCart" });
