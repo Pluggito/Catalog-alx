@@ -8,6 +8,7 @@ import type { RootState } from "../redux/store";
 import { Menu } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import Loader from "./Loader";
 
 interface NavbarProps {
  
@@ -32,7 +33,7 @@ const Navbar = ({  setVisible }: NavbarProps) => {
 
   return (
     <>
-     {loading }
+     {loading && <Loader />}
       {/* NAVBAR */}
       <div className="flex items-center justify-between py-5 font-medium">
         {/* LOGO */}
