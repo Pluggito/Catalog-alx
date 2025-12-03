@@ -6,6 +6,7 @@ import Title from "../components/Title";
 import { ProductCard } from "../components/ProductCard";
 import { addToCart } from "../redux/cartSlice";
 import { Star } from "lucide-react";
+import type { RootState } from "../redux/store";
 
 const Products = () => {
   const { productId } = useParams<{ productId?: string }>();
@@ -13,7 +14,7 @@ const Products = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const products: Product[] = useSelector((state: any) => state.products.items ?? []);
+  const products: Product[] = useSelector((state: RootState) => state.products.items ?? []);
   const product = products.find((p) => p.id === prodId);
 
   const [quantity, setQuantity] = useState<number>(() => 1);

@@ -4,6 +4,7 @@ import CartTotal from "../components/CartTotal";
 import Title from "../components/Title";
 import { useNavigate } from "react-router-dom";
 import type { Product } from "../types/product";
+import type { RootState } from "../redux/store";
 
 const PlaceOrder = () => {
 	const [firstName, setFirstName] = useState("");
@@ -20,8 +21,7 @@ const PlaceOrder = () => {
 	const dispatch = useDispatch();
 
 	// Read cart and products from Redux
-	const cart: (Product & { quantity: number })[] = useSelector((state: any) => state.cart.cart ?? []);
-	const products: Product[] = useSelector((state: any) => state.products.items ?? []);
+	const cart: (Product & { quantity: number })[] = useSelector((state: RootState) => state.cart.cart ?? []);
 
 	// Calculate amounts
 	const cartAmount = cart.reduce((sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1), 0);

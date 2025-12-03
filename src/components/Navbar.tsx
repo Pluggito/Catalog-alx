@@ -38,7 +38,7 @@ const Navbar = ({  setVisible }: NavbarProps) => {
       <div className="flex items-center justify-between py-5 font-medium">
         {/* LOGO */}
         <Link to="/">
-          <h1 className="font-semibold text-lg">UrbanThread</h1>
+          <h1 className="font-semibold text-lg">UrbanTrend</h1>
         </Link>
 
         {/* DESKTOP NAV */}

@@ -5,14 +5,17 @@ import { useNavigate } from "react-router-dom";
 import { Trash2 } from "lucide-react";
 import { removeFromCart, increaseQty, decreaseQty } from "../redux/cartSlice";
 import type { Product } from "../types/product";
+  import type { RootState } from "../redux/store";
+
 
 const Cart = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
   // cart items already stored with quantity in cartSlice
-  const cart: (Product & { quantity: number })[] = useSelector((state: any) => state.cart.cart ?? []);
-  const products: Product[] = useSelector((state: any) => state.products.items ?? []);
+
+  const cart: (Product & { quantity: number })[] = useSelector((state: RootState) => state.cart.cart ?? []);
+  const products: Product[] = useSelector((state: RootState) => state.products.items ?? []);
 
   // show loading if products not yet available
   if (!Array.isArray(products) || products.length === 0) {

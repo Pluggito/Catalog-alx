@@ -6,7 +6,12 @@ const ShopNowbutton = () => {
   );
 };
 
-const DrawOutlineButton = ({ children, ...rest }) => {
+interface DrawOutlineButtonProps {
+  children: React.ReactNode;
+  [key: string]: unknown;
+}
+
+const DrawOutlineButton = ({ children, ...rest }: DrawOutlineButtonProps) => {
   return (
     <button
       {...rest}

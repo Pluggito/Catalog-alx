@@ -5,18 +5,19 @@ import { ProductCard } from "../components/ProductCard";
 import Title from "../components/Title";
 import { useNavigate } from "react-router-dom";
 import { setSearchQuery, setSelectedCategory, setCurrentPage, incrementPage } from "../redux/productSlice";
+import type { RootState } from "../redux/store";
 
 const Collections = () => {
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
 	const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-	const filteredItems: Product[] = useSelector((state: any) => state.products.filteredItems);
-	const searchQuery: string = useSelector((state: any) => state.products.searchQuery);
-	const selectedCategory: string | null = useSelector((state: any) => state.products.selectedCategory);
-	const allProducts: Product[] = useSelector((state: any) => state.products.items);
-	const currentPage: number = useSelector((state: any) => state.products.currentPage);
-	const itemsPerPage: number = useSelector((state: any) => state.products.itemsPerPage);
+	const filteredItems: Product[] = useSelector((state: RootState) => state.products.filteredItems);
+	const searchQuery: string = useSelector((state: RootState) => state.products.searchQuery);
+	const selectedCategory: string | null = useSelector((state: RootState) => state.products.selectedCategory);
+	const allProducts: Product[] = useSelector((state: RootState) => state.products.items);
+	const currentPage: number = useSelector((state: RootState) => state.products.currentPage);
+	const itemsPerPage: number = useSelector((state: RootState) => state.products.itemsPerPage);
 
 
 	// Get unique categories

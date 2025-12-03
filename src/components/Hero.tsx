@@ -23,7 +23,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.25 }}
             className="outfit font-bold text-3xl sm:text-4xl lg:text-5xl leading-relaxed text-slate-50"
           >
-            UrbanThread
+            UrbanTrend
           </motion.h1>
 
           <motion.div
