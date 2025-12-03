@@ -14,7 +14,7 @@ const NewCollections = () => {
     );
 
     const handleProductClick = (id: number) => {
-        navigate(`/products/${id}`);
+        navigate(`/product/${id}`);
     };
 
     const productsToShow = useMemo(() => products.slice(0, 8), [products]);

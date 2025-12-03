@@ -5,6 +5,7 @@ import type { Product } from "../types/product";
 import Title from "../components/Title";
 import { ProductCard } from "../components/ProductCard";
 import { addToCart } from "../redux/cartSlice";
+import { Star } from "lucide-react";
 
 const Products = () => {
   const { productId } = useParams<{ productId?: string }>();
@@ -65,7 +66,7 @@ const Products = () => {
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl font-semibold">₦{priceText}</span>
             <span className="text-sm text-gray-600">· {product.category ?? "Uncategorized"}</span>
-            <span className="ml-auto text-sm text-gray-600">Rating: {safeRating}</span>
+            <span className="ml-auto text-sm text-gray-600"><Star className="fill-amber-400" strokeOpacity={0}/>Rating: {safeRating}</span>
           </div>
 
           <p className="text-gray-700 mb-6">{product.description ?? "No description available."}</p>
